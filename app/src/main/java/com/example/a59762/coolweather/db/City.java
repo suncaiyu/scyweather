@@ -11,6 +11,7 @@ public class City extends DataSupport{
     private int cityCode;
     private String cityName;
     private int provinceId;
+    public int getId(){return id;}
     public void setId(int id){
         this.id=id;
     }
